@@ -28,7 +28,3 @@ class MenuData:
 
             d.add_ingredient_dependency(i, ra)
         return set([temp[i] for i in temp])
-
-
-ax = MenuData("data/menu_base_data.csv")
-print(ax.dishes)
