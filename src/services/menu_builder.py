@@ -40,7 +40,3 @@ class MenuBuilder:
                 result.append(temp)
 
         return pd.DataFrame(result)
-
-
-dx = MenuBuilder().get_main_menu()
-print(len(dx))
